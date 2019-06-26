@@ -1,5 +1,5 @@
 Name: osmconvert
-Version: 0.8.8
+Version:	0.8.10
 Release: 2
 Source0: http://m.m.i24.cc/osmconvert.c
 Summary: Tool to convert and merge OpenStreetMap files
