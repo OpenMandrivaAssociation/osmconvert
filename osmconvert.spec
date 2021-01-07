@@ -14,11 +14,12 @@ Tool to convert and merge OpenStreetMap files.
 %prep
 
 %build
+# keep it in install
+
+%install
 %set_build_flags
 mkdir -p %{buildroot}%{_bindir}
 %{__cc} %{optflags} -o %{buildroot}%{_bindir}/osmconvert %{SOURCE0} -lz
-
-%install
 
 %files
 %{_bindir}/osmconvert
