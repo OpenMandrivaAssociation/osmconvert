@@ -6,7 +6,7 @@ Release:	3
 Source0:	%{name}-%{version}.tar
 Source1:	http://m.m.i24.cc/osmconvert.c
 Summary:	Tool to convert and merge OpenStreetMap files
-URL:		http://wiki.openstreetmap.org/wiki/Osmconvert
+URL:		https://wiki.openstreetmap.org/wiki/Osmconvert
 License:	AGPLv3
 Group:		Sciences/Geosciences
 BuildRequires:	pkgconfig(zlib)
